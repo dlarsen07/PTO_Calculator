@@ -15,7 +15,7 @@
 	article {
 		border: solid 2px #666;
 		padding: 5px;
-		width: 350px;
+		width: 320px;
 	}
 
 	label {
@@ -32,7 +32,7 @@
 		list-style-type: none;
 		border: dashed 1px #666;
 		width: 50px;
-		margin-left: 185px;
+		margin-left: 165px;
 		margin-top: 2px;
 		min-height: 1.25em;
 	}
@@ -110,7 +110,8 @@ function getWeek(dateToCheck) {
 <html>
 <body>
 <article>
-	<div id="PTORateContainer" class="container" style="float:left; margin-left:15%; margin-right:22%;">
+	<h2 style="text-align:center;">PTO Calculator</h2>
+	<div id="PTORateContainer" class="container" style="float:left; margin-left:10%; margin-right:23%;">
         <label for="rateInput">PTO Rate</label><br />
         <input type="text" id="rateInput" name="rateInput" value="3.25" size="3"/>
     </div>
@@ -118,15 +119,15 @@ function getWeek(dateToCheck) {
     	<label for="currentPTOHoursInput">Current PTO Hours</label><br />
         <input type="text" id="currentPTOHoursInput" name="currentPTOHoursInput" size="5"/>
     </div>
-    <div id="startDateContainer" class="container" style="float:left; margin-left:15%; margin-right:15%;">
+    <div id="startDateContainer" class="container" style="float:left; margin-left:10%; margin-right:12%;">
     	<label for="startDateInput">Start Date</label><br>
-        <input type="text" id="startDateInput" name="startDateInput" size="9">
+        <input type="text" id="startDateInput" name="startDateInput" size="8">
     </div>
     <div id="endDateContainer" class="container" style="margin-left:10%;">
     	<label for="endDateInput">End Date</label><br>
-        <input type="text" id="endDateInput" name="endDateInput" size="9">
+        <input type="text" id="endDateInput" name="endDateInput" size="8">
     </div>
-    <div id="vacDayAddContainer" class="container" style="float:left; margin-left:15%;">
+    <div id="vacDayAddContainer" class="container" style="float:left; margin-left:10%;">
     	<label for="vacDayToAddInput">Add Vacation Day</label><br />
         <input type="text" id="vacDayToAddInput" name="vacDayToAddInput" class="datepicker" size="9"/>
     </div>
@@ -136,7 +137,7 @@ function getWeek(dateToCheck) {
         </ul>
     </div><br>
     <h3 id="result" style="text-align:center;"></h3>
-    <input type="button" id="calcBTN" class="button" value="CALCULATE" style="clear:both; width:350px;">
+    <input type="button" id="calcBTN" class="button" value="CALCULATE" style="clear:both; width:320px;">
     
     
     
